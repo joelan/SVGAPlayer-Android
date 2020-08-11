@@ -7,9 +7,9 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.View;
 
-import com.opensource.svgaplayer.SVGAImageView;
-import com.opensource.svgaplayer.SVGAParser;
-import com.opensource.svgaplayer.SVGAVideoEntity;
+import com.opensource.svgaplayer2.SVGAImageView;
+import com.opensource.svgaplayer2.SVGAParser;
+import com.opensource.svgaplayer2.SVGAVideoEntity;
 
 import org.jetbrains.annotations.NotNull;
 
