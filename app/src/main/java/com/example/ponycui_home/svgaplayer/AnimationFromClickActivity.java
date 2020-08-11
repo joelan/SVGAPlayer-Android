@@ -6,12 +6,12 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.widget.Toast;
 
-import com.opensource.svgaplayer2.SVGAClickAreaListener;
-import com.opensource.svgaplayer2.SVGADrawable;
-import com.opensource.svgaplayer2.SVGADynamicEntity;
-import com.opensource.svgaplayer2.SVGAImageView;
-import com.opensource.svgaplayer2.SVGAParser;
-import com.opensource.svgaplayer2.SVGAVideoEntity;
+import com.opensource.svgaplayer.SVGAClickAreaListener;
+import com.opensource.svgaplayer.SVGADrawable;
+import com.opensource.svgaplayer.SVGADynamicEntity;
+import com.opensource.svgaplayer.SVGAImageView;
+import com.opensource.svgaplayer.SVGAParser;
+import com.opensource.svgaplayer.SVGAVideoEntity;
 
 import org.jetbrains.annotations.NotNull;
 

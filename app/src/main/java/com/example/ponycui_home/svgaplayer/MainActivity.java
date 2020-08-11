@@ -14,7 +14,7 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.opensource.svgaplayer2.SVGAParser;
+import com.opensource.svgaplayer.SVGAParser;
 
 import java.util.ArrayList;
 
