@@ -33,10 +33,10 @@ allprojects {
 Then, add dependency to app `build.gradle`.
 
 ```
-compile 'com.github.yyued:SVGAPlayer-Android:latest'
+compile 'com.github.joelan:SVGAPlayer-Android:latest'
 ```
 
-[![](https://jitpack.io/v/yyued/SVGAPlayer-Android.svg)](https://jitpack.io/#yyued/SVGAPlayer-Android)
+[![](https://www.jitpack.io/v/joelan/SVGAPlayer-Android.svg)](https://www.jitpack.io/#joelan/SVGAPlayer-Android)
 
 ### Static Parser Support
 Perser#shareParser should be init(context) in Application or other Activity.
@@ -51,7 +51,7 @@ Head on over to [Dynamic · Matte Layer](https://github.com/yyued/SVGAPlayer-And
 
 ```
 -keep class com.squareup.wire.** { *; }
--keep class com.opensource.svgaplayer.proto.** { *; }
+-keep class com.opensource.svgaplayer2.proto.** { *; }
 ```
 
 ### Locate files
@@ -70,7 +70,7 @@ You may use `layout.xml` to add a `SVGAImageView`.
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.opensource.svgaplayer.SVGAImageView
+    <com.opensource.svgaplayer2.SVGAImageView
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         app:source="posche.svga"
