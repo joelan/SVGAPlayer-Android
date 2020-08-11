@@ -51,7 +51,7 @@ Head on over to [Dynamic · Matte Layer](https://github.com/yyued/SVGAPlayer-And
 
 ```
 -keep class com.squareup.wire.** { *; }
--keep class com.opensource.svgaplayer2.proto.** { *; }
+-keep class com.opensource.svgaplayer.proto.** { *; }
 ```
 
 ### Locate files
@@ -70,7 +70,7 @@ You may use `layout.xml` to add a `SVGAImageView`.
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.opensource.svgaplayer2.SVGAImageView
+    <com.opensource.svgaplayer.SVGAImageView
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         app:source="posche.svga"
